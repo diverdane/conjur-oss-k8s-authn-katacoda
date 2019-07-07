@@ -1,0 +1,10 @@
+- !host
+  id: orquestador/service_account/conjur-oss
+  annotations:
+    kubernetes/authentication-container-name: secretless
+    kubernetes: "true"
+
+# grant membership to the conjur/authn-k8s/openshift/secretless-xa/apps layer
+- !grant
+  role: !layer
+  member: !host orquestador/service_account/conjur-oss
