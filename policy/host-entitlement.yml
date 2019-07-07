@@ -1,0 +1,3 @@
+- !grant
+  role: !group devops
+  member: !host conjur/authn-k8s/dev/apps/orquestador/service_account/conjur-oss
