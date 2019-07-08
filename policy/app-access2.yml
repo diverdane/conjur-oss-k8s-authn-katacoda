@@ -10,6 +10,8 @@
       - !variable db-password
       - !variable url
       - !variable secretless-url
+      - !variable secretless-username
+      - !variable secretless-password
 
     - !permit
       role: !layer /orquestador-ajustadores
