@@ -1,5 +1,5 @@
 - !host
-  id: orquestador/service_account/conjur-oss
+  id: orquestador/service_account/test-app-secretless
   annotations:
     kubernetes/authentication-container-name: secretless
     kubernetes: "true"
