@@ -17,7 +17,7 @@
         openshift: "true"
 
     - !host
-      id: test-app/service_account/test-app-summon-sidecar
+      id: test-app/service_account/test-app-conjur
       annotations:
         kubernetes/authentication-container-name: authenticator
         kubernetes: "true"
